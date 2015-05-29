@@ -201,6 +201,9 @@ body{
 .img-prom{
 	.margin-top{
 		  margin-top: 2%;
+		  img{
+		  	width: 100%;
+		  }
 	}
 }
 
@@ -208,6 +211,21 @@ body{
 /*SECCION SLIDER*/
 
 .img-slider{
-	
+
 }
 	
+
+
+
+
+@media screen and (max-width: $screen-phone){
+		/*SECTION MENU*/
+	.menu{
+		.navbar-header{
+			button{
+				float: none;
+				margin: 8px;
+			}
+		}
+	}
+}

@@ -5668,7 +5668,14 @@ body {
 /*SECCION IMG-PROM*/
 .img-prom .margin-top {
   margin-top: 2%; }
+  .img-prom .margin-top img {
+    width: 100%; }
 
 /*SECCION SLIDER*/
+@media screen and (max-width: 480px) {
+  /*SECTION MENU*/
+  .menu .navbar-header button {
+    float: none;
+    margin: 8px; } }
 
 /*# sourceMappingURL=main.css.map */
