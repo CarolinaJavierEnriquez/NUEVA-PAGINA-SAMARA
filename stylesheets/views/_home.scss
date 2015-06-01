@@ -225,23 +225,81 @@ body{
 }
 
 
-position
-
 
 /*SECCION SLIDER*/
 
-.img-slider{
-	.text-title-slider{
-		.line{
-			border-bottom: 1px solid grey;
-		  width: 100%;
-		  height: 10%;
+	.slick-slide{
+		height: auto;
+	}
+
+	.img-slider{
+		.text-title-slider{
+			.line{
+				border-bottom: 1px solid #e7e7e7;
+			 	margin-top: 5px;
+			  height: 10%;
+			}
+			.text-linea{
+				text-align: center;
+			  position: relative;
+			  margin-top: -7px;
+			  span{
+			  	font-weight: 600;
+			  	padding:1%;
+			  	background-color:white;
+			  	border: 3px double #e7e7e7;
+			  }
+			}
+		}
+		.slider{
+			margin:45px auto;
+			text-align:center;
+		}
+		img{
+			width: 100%;
+			border:1px solid #e7e7e7;
+		}
+		.slider div{
+			margin-right:5px;
+		}
+		p{
+			margin-top: 5%;
+			font-family: 10px;
+		}
+		.nombre-producto{
+			&:hover{
+				color:red;
+				cursor: pointer;
+			}
+		}
+		.precio{
+			color: red;
 		}
 	}
+
+.slick-dots{
+	visibility:hidden;
 }
-	
 
+	/*rating-estrellitas*/
 
+	.rating {
+		margin-top: 5%;
+		  unicode-bidi: bidi-override;
+		  direction: rtl;
+		}
+		.rating > span {
+			color:#A5A5A5;
+		  display: inline-block;
+		  position: relative;
+		  width: 1.1em;
+		}
+		.rating > span:hover:before,
+		.rating > span:hover ~ span:before {
+			color:gold;
+		   content: "\2605";
+		   position: absolute;
+		}
 
 @media screen and (max-width: $screen-phone){
 		/*SECTION MENU*/

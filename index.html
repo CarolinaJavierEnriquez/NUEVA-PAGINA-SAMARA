@@ -4,6 +4,8 @@
 	<title>SAMARA</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+	 <link rel="stylesheet" type="text/css" href="slick.css"/>
+  <link rel="stylesheet" type="text/css" href="slick-theme.css"/>
 	<link rel="stylesheet" type="text/css" href="stylesheets/main.css">
 	<link rel="stylesheet" type="text/css" href="fonts/fonts-fortawesome/css/font-awesome.min.css">
 </head>
@@ -159,16 +161,94 @@
 		<section class="img-slider">
 			<div class="container">
 				<div class="text-title-slider">
-					<div class="line"></div>
- 					
-
-
-
-
-
-
-
+					<div class="line">
+					</div>
+					<div class="text-linea">
+						<span>FEATURE PRODUCTS</span>
+					</div>
 				</div>
+				<div class="slider">
+		    <div>
+		    	<div class="img-carousel">
+		    		<img src="assets/img/product_10-278x385.jpg">
+		    	</div>
+		    	<div class="rating">
+						<span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span>
+					</div>
+					<p class="nombre-producto">MERITEGE SICESAN JOURNEY</p>
+					<p class="precio">$390.00</p>
+		  	</div>
+		  	 <div>
+		    	<div class="img-carousel">
+		    		<img src="assets/img/product_11-278x385.jpg">
+		    		<div class="rating">
+							<span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span>
+					</div>
+						<p class="nombre-producto">MERITEGE SICESAN JOURNEY</p>
+						<p class="precio">$390.00</p>
+		    	</div>
+		  	</div>
+		  	 <div>
+		    	<div class="img-carousel">
+		    		<img src="assets/img/product_9-278x385.jpg">
+		    		<div class="rating">
+							<span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span>
+					</div>
+						<p class="nombre-producto">MERITEGE SICESAN JOURNEY</p>
+						<p class="precio">$390.00</p>
+		    	</div>
+		  	</div>
+		  	 <div>
+		    	<div class="img-carousel">
+		    		<img src="assets/img/product_8-278x385.jpg">
+		    		<div class="rating">
+							<span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span>
+						</div>
+						<p class="nombre-producto">MERITEGE SICESAN JOURNEY</p>
+						<p class="precio">$390.00</p>
+		    	</div>
+		  	</div>
+		  	 <div>
+		    	<div class="img-carousel">
+		    		<img src="assets/img/product_7-278x385.jpg">
+		    		<div class="rating">
+							<span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span>
+						</div>
+						<p class="nombre-producto">MERITEGE SICESAN JOURNEY</p>
+						<p class="precio">$390.00</p>
+		    	</div>
+		  	</div>
+		  	 <div>
+		    	<div class="img-carousel">
+		    		<img src="assets/img/product_8-278x385.jpg">
+		    		<div class="rating">
+							<span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span>
+						</div>
+						<p class="nombre-producto">MERITEGE SICESAN JOURNEY</p>
+						<p class="precio">$390.00</p>
+		    	</div>
+		  	</div>
+		  	 <div>
+		    	<div class="img-carousel">
+		    		<img src="assets/img/product_6-278x385.jpg">
+		    		<div class="rating">
+							<span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span>
+						</div>
+						<p class="nombre-producto">MERITEGE SICESAN JOURNEY</p>
+						<p class="precio">$390.00</p>
+		    	</div>
+		  	</div>
+		  	 <div>
+		    	<div class="img-carousel">
+		    		<img src="assets/img/product_4-278x385.jpg">
+		    		<div class="rating">
+							<span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span>
+						</div>
+						<p class="nombre-producto">MERITEGE SICESAN JOURNEY</p>
+						<p class="precio">$390.00</p>
+		    	</div>
+		  	</div>
+		 	 	</div>
 			</div>
 		</section>
 
@@ -186,10 +266,24 @@
 
 
 	</div><!--  final del container-fluit -->
-	<script src="javascripts/b3/dropdown.js"></script>
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script> 
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script> 
 	
-	<script src="jquery.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script> 
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="slick.min.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function(){
+      	$('.slider').slick({
+      		dots: true,
+  			infinite: true,
+  			slidesToShow: 4,
+  			slidesToScroll: 4,
+  			draggable: false,
+  			adaptiveHeight: true,
+  			autoplay: true,
+  			autoplaySpeed:3000
+			});
+    });
+  </script>
+  <script src="javascripts/b3/dropdown.js"></script>
 </body>
 </htnl>

@@ -5685,11 +5685,60 @@ body {
       background-color: #63cbc2;
       transition: 1s; }
 
-position
+/*SECCION SLIDER*/
+.slick-slide {
+  height: auto; }
+
 .img-slider .text-title-slider .line {
-  border-bottom: 1px solid grey;
-  width: 100%;
+  border-bottom: 1px solid #e7e7e7;
+  margin-top: 5px;
   height: 10%; }
+.img-slider .text-title-slider .text-linea {
+  text-align: center;
+  position: relative;
+  margin-top: -7px; }
+  .img-slider .text-title-slider .text-linea span {
+    font-weight: 600;
+    padding: 1%;
+    background-color: white;
+    border: 3px double #e7e7e7; }
+.img-slider .slider {
+  margin: 45px auto;
+  text-align: center; }
+.img-slider img {
+  width: 100%;
+  border: 1px solid #e7e7e7; }
+.img-slider .slider div {
+  margin-right: 5px; }
+.img-slider p {
+  margin-top: 5%;
+  font-family: 10px; }
+.img-slider .nombre-producto:hover {
+  color: red;
+  cursor: pointer; }
+.img-slider .precio {
+  color: red; }
+
+.slick-dots {
+  visibility: hidden; }
+
+/*rating-estrellitas*/
+.rating {
+  margin-top: 5%;
+  unicode-bidi: bidi-override;
+  direction: rtl; }
+
+.rating > span {
+  color: #A5A5A5;
+  display: inline-block;
+  position: relative;
+  width: 1.1em; }
+
+.rating > span:hover:before,
+.rating > span:hover ~ span:before {
+  color: gold;
+  content: "\2605";
+  position: absolute; }
 
 @media screen and (max-width: 480px) {
   /*SECTION MENU*/
