@@ -162,6 +162,10 @@ body{
 	  	background-color:transparent;
 		  border: 3px double white;
 		  padding: 2% 7%;
+		  &:hover{
+		  	transition: 1s;
+		  	background-color: #63cbc2;
+		  }
 	  }
 	}
 	.carousel-control {
@@ -200,21 +204,42 @@ body{
 
 .img-prom{
 	.margin-top{
-		  margin-top: 2%;
-		  img{
-		  	width: 100%;
+	  margin-top: 2%;
+	  img{
+	  	width: 100%;
+	  }
+	  button{
+	  	background-color:transparent;
+		  border: 3px double white;
+		  padding: 2% 7%;
+		  position: absolute;
+		  bottom: 8%;
+		  left: 35%;
+		  color: white;
+		  &:hover{
+		  	background-color: #63cbc2;
+		  	transition: 1s;
 		  }
+		}
 	}
 }
+
+
+position
 
 
 /*SECCION SLIDER*/
 
 .img-slider{
-
+	.text-title-slider{
+		.line{
+			border-bottom: 1px solid grey;
+		  width: 100%;
+		  height: 10%;
+		}
+	}
 }
 	
-
 
 
 

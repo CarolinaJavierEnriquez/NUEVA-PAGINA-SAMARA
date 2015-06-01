@@ -5642,6 +5642,9 @@ body {
     background-color: transparent;
     border: 3px double white;
     padding: 2% 7%; }
+    .img-home-carrousel .carousel-caption button:hover {
+      transition: 1s;
+      background-color: #63cbc2; }
 .img-home-carrousel .carousel-control {
   width: 3%; }
 .img-home-carrousel .right, .img-home-carrousel .carousel-control {
@@ -5670,8 +5673,24 @@ body {
   margin-top: 2%; }
   .img-prom .margin-top img {
     width: 100%; }
+  .img-prom .margin-top button {
+    background-color: transparent;
+    border: 3px double white;
+    padding: 2% 7%;
+    position: absolute;
+    bottom: 8%;
+    left: 35%;
+    color: white; }
+    .img-prom .margin-top button:hover {
+      background-color: #63cbc2;
+      transition: 1s; }
 
-/*SECCION SLIDER*/
+position
+.img-slider .text-title-slider .line {
+  border-bottom: 1px solid grey;
+  width: 100%;
+  height: 10%; }
+
 @media screen and (max-width: 480px) {
   /*SECTION MENU*/
   .menu .navbar-header button {
